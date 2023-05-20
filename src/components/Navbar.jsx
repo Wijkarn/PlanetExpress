@@ -4,7 +4,7 @@ export default function Navbar(){
 
     return(
         <nav>
-            <img src={logoUrl.href} alt="Logo" />
+            <img src={logoUrl.href}/>
         </nav>
     );
 }
