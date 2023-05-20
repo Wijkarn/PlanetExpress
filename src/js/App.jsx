@@ -62,13 +62,11 @@ root.render(<App/>);
 */
 // Övning 3 ------------------------------------------------------------------------------------------------------
 
-import { ShoppingCart } from '../components/ShoppingCart';
-
-const arr = [{ id: 0, product: "Melons", price: 40, imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Cantaloupe_and_canary_melon.jpg/1280px-Cantaloupe_and_canary_melon.jpg" }, { id: 1, product: "Cucumber", price: 10, imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cucumber_BNC.jpg/1280px-Cucumber_BNC.jpg" }, { id: 2, product: "Tomtatoes", price: 5, imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/1024px-Tomato_je.jpg" }, { id: 3, product: "Apple", price: 8, imgSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pink_lady_and_cross_section.jpg/1920px-Pink_lady_and_cross_section.jpg" }]
+import { Navbar } from '../components/Navbar';
 
 function App() {
     return (
-        <ShoppingCart arr={arr} />
+        <Navbar/>
     );
 }
 
