@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import "../css/App.css";
 
@@ -10,5 +9,5 @@ function App() {
     );
 }
 
-const root = createRoot(document.querySelector("#root"));
-root.render(<App />);
+const body = createRoot(document.querySelector("body"));
+body.render(<App/>);
