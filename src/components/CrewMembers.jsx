@@ -15,6 +15,8 @@ export default function CrewMembers() {
 
             const crewMembersArray = []
             Object.values(data).map(cm => {
+
+                //const imgUrl = new URL(cm.imgSrc, import.meta.url);
                 crewMembersArray.push(
                     {
                         name: cm.name,
@@ -36,8 +38,8 @@ export default function CrewMembers() {
     //<img src={benderUrl.href}/>
 
     return (
-        <>
+        <div className="crew-members-div">
             {crewMembers.map(cm => <CrewMember key={cm.name} name={cm.name} imgSrc={cm.imgSrc} />)}
-        </>
+        </div>
     );
 }

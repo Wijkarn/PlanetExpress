@@ -1,11 +1,9 @@
 export default function CrewMember({name, imgSrc}){
 
-    const imgUrl = new URL(imgSrc, import.meta.url);
-
     return(
-        <div>
-            <h3>{name}</h3>
-            <img src={imgUrl}/>
+        <div className="crew-member">
+            <h3 className="crew-member-name">{name}</h3>
+            <img src={imgSrc} className="crew-member"/>
         </div>
     );
 }
