@@ -9,17 +9,25 @@ img.logo{
     width: 100px;
 }
 
+nav{
+    height: 100px;
+    background-color: #27992d;
+    margin-bottom: 50px;
+}
+
 .crew-members-div{
     display: flex;
-    gap: 2em;
+    flex-wrap: wrap;
+    gap: 1.3em;
+    justify-content: center;
 }
 
 div.crew-member{
-    width: 400px;
+    width: 18%;
     border: 1px solid black;
 }
 
-img.crew-member{
+.crew-member-img{
     width: 100%;
 }
 
