@@ -1,0 +1,39 @@
+{
+    "CrewMembers":{
+    "cm1":{
+        "name": "Amy Wong-Kroker",
+        "imgSrc": "../assets/amy_wong.png",
+        "wiki": "https://futurama.fandom.com/wiki/Amy_Wong-Kroker"
+    },
+    "cm2": {
+       "name": "Bender Bending Rodríguez",
+        "imgSrc": "../assets/bender.png",
+        "wiki": "https://futurama.fandom.com/wiki/Bender_Bending_Rodr%C3%ADguez"
+    },
+    "cm3":{
+        "name":"Philip J. Fry",
+        "imgSrc": "../assets/fry.png",
+        "wiki": "https://futurama.fandom.com/wiki/Philip_J._Fry"
+    },
+    "cm4":{
+        "name":"Turanga Leela",
+        "imgSrc": "../assets/leela.png",
+        "wiki": "https://futurama.fandom.com/wiki/Turanga_Leela"
+    },
+    "cm5":{
+        "name":"Hermes Conrad",
+        "imgSrc": "../assets/hermes_conrad.png",
+        "wiki": "https://futurama.fandom.com/wiki/Hermes_Conrad"
+    },
+    "cm6":{
+        "name":"Hubert J. Farnsworth",
+        "imgSrc": "../assets/hubert_farnsworth.png",
+        "wiki": "https://futurama.fandom.com/wiki/Hubert_J._Farnsworth"
+    },
+    "cm7":{
+        "name":"John A. Zoidberg",
+        "imgSrc": "../assets/zoidberg.png",
+        "wiki": "https://futurama.fandom.com/wiki/John_A._Zoidberg"
+    }
+}
+}
